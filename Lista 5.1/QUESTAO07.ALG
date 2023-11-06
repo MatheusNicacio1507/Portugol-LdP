@@ -15,8 +15,8 @@ enquanto (contador < 200) faca
          
          se (resto = 0) entao
             escreval("O número " ,contador, " é divisível por 4")
-         contador = contador + 1
          fimse
+         contador <- contador + 1
 fimenquanto
          
 Fimalgoritmo
