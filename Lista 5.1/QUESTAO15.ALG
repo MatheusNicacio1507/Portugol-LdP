@@ -17,7 +17,7 @@ contador <- 1
 num <- 1
 num2 <- 1
 escreval(num)
-enquanto (contador < 15) faca
+enquanto (contador <= 15) faca
          escreval(num2)
          soma <- num+num2
          num <- num2
