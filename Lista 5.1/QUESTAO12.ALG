@@ -3,12 +3,12 @@ Algoritmo "questao12"
 
 Var
 // Seção de Declarações das variáveis 
-num: inteiro
+num: real
 
-maior: inteiro
-menor: inteiro
+maior: real
+menor: real
 total_respostas: inteiro
-soma: inteiro
+soma: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval("Insira um número(-1 Encerra o programa): ")
@@ -25,11 +25,11 @@ enquanto (num <> -1) faca
 
     se (maior < num)entao
         maior <- num
-fimse
+    fimse
 
     se(menor > num)entao
         menor <- num
-fimse
+    fimse
         escreval("Insira outro número(-1 Encerra o programa): ")
         leia(num)
 
@@ -40,7 +40,7 @@ se (maior = -1) entao
    
 senao
         escreval("Maior valor inserido: ", maior)
-        escreval("Maior valor inserido: ",menor)
+        escreval("Menor valor inserido: ",menor)
         escreval("Média dos valores inseridos = ", soma / total_respostas)
         escreval("FIM DO PROGRAMA")
 fimse
