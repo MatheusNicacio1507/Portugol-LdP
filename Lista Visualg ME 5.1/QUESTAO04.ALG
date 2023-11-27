@@ -13,17 +13,17 @@ leia(sigla)
 
 escolha (sigla)
 
-caso "RJ"
-     escreval("Você é carioca")
-     
-caso "SP"
-     escreval("Você é paulista")
-     
-caso "MG"
-     escreval("Você é mineiro")
+   caso "RJ"
+        escreval("Você é carioca")
 
-outrocaso
-     escreval("Outros Estados")
+   caso "SP"
+        escreval("Você é paulista")
+
+   caso "MG"
+        escreval("Você é mineiro")
+
+   outrocaso
+        escreval("Outros Estados")
 fimescolha
 
 Fimalgoritmo

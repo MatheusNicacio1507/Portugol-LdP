@@ -3,35 +3,41 @@ Algoritmo "questao03"
 //como resultado somente o algarismo das centenas.
 Var
 // Seção de Declarações das variáveis 
-num: inteiro
-centena: real
+num, centena: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval ("Insira um número de 3 casas")
+escreval ("Insira um número de três casas")
 leia(num)
 
-centena <- num/100
-      
-escolha (centena)
-      
-         caso 1
-              escreval("1")
-         caso 2
-              escreval("O algarismo da centena é 2")
-         caso 3
-              escreval("O algarismo da centena é 3")
-         caso 4
-              escreval("O algarismo da centena é 4")
-         caso 5
-              escreval("O algarismo da centena é 5")
-         caso 6
-              escreval("O algarismo da centena é 6")
-         caso 7
-              escreval("O algarismo da centena é 7")
-         caso 8
-              escreval("O algarismo da centena é 8")
-         caso 9
-              escreval("O algarismo da centena é 9")
-fimescolha
+se (num >= 100) e (num<= 999) entao
+
+   centena <- num\100
+   
+   escreval("O algarismo das centenas é =", centena)
+   
+   escolha(centena)
+   
+      caso 1
+           escreval("um")
+      caso 2
+           escreval("dois")
+      caso 3
+           escreval("três")
+      caso 4
+           escreval("quatro")
+      caso 5
+           escreval("cinco")
+      caso 6
+           escreval("seis")
+      caso 7
+           escreval("sete")
+      caso 8
+           escreval("oito")
+      caso 9
+           escreval("nove")
+
+senao
+     escreval("O número não possui três casas")
+fimse
 Fimalgoritmo

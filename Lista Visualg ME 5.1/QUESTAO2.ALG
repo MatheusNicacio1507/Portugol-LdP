@@ -12,12 +12,15 @@ leia(num)
 
 se (num > 0) entao
    escreval(num, " é positivo")
+   
 senao
      se (num < 0) entao
         escreval(num, " é negativo")
-senao
-     escreval("Número Nulo")
-fimse
+        
+     senao
+        escreval("Número nulo")
+        
+     fimse
 fimse
 
 
