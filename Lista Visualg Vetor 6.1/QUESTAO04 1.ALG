@@ -13,7 +13,7 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
 para contador de 1 ate 20 passo 1 faca
-     escreval("Insira um número: ")
+     escreval("Insira um valor para vetor a[",contador,"]: ")
      leia(a[contador])
 fimpara
 
